@@ -1,0 +1,1706 @@
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:07 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:08 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:09 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:10 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:11 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:12 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:12 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:13 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:13 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:14 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:15 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:16 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause' (SQL: select * from `reminder` where `status` = `NO` and `datetimeschedule` = 2022-06-04 13:17 order by `reminder`.`id` asc limit 1000 offset 0)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NO' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `status` = `NO` and `datetimeschedule` = ? order by `reminder`.`id` asc limit 1000 offset 0")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' (SQL: update `reminder` set `status` = YES, `reminder`.`updated_at` = 2022-06-04 19:30:00 where `id` is null)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m522[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m522[39;22m
+  [37m    PDO::prepare("update `reminder` set `status` = ?, `reminder`.`updated_at` = ? where `id` is null")[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Invalid argument supplied for foreach()[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m57[39m
+    [90m 53[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 54[0m[90m▕ [0m[35;1m                {[0m
+    [90m 55[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$tandai [0m[35;1m= [0m[37m"1214056rr@gmail.com"[0m[35;1m;[0m
+[31;1m  ➜ [0m[3;1m 57[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$tandai [0m[35;1mas [0m[39;1m$email[0m[35;1m) {[0m
+    [90m 58[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 59[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 60[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 61[0m[90m▕ [0m[90;3m                        );*/[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m57[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Invalid argument supplied for foreach()", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mcoba isikan ya[39m[37m</p>[39m[37m", "1214056rr@gmail.com"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Invalid argument supplied for foreach()[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m57[39m
+    [90m 53[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 54[0m[90m▕ [0m[35;1m                {[0m
+    [90m 55[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$tandai [0m[35;1m= [0m[37m"1214056rr@gmail.com"[0m[35;1m;[0m
+[31;1m  ➜ [0m[3;1m 57[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$tandai [0m[35;1mas [0m[39;1m$email[0m[35;1m) {[0m
+    [90m 58[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 59[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 60[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 61[0m[90m▕ [0m[90;3m                        );*/[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m57[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Invalid argument supplied for foreach()", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mcoba isikan ya[39m[37m</p>[39m[37m", "1214056rr@gmail.com"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: email[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m62[39m
+    [90m 58[0m[90m▕ [0m[90;3m                        /*dispatch(new SendMailJob([0m
+    [90m 59[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 60[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 61[0m[90m▕ [0m[90;3m                        );*/[0m
+[31;1m  ➜ [0m[3;1m 62[0m[90m▕ [0m[90;3m                        [0m[35;1m\[0m[39;1mMail[0m[35;1m::[0m[39;1mto[0m[35;1m([0m[39;1m$email[0m[35;1m)->[0m[39;1msend[0m[35;1m(new [0m[39;1mMailPortal[0m[35;1m([0m[39;1m$bodyMail[0m[35;1m));[0m
+    [90m 63[0m[90m▕ [0m[35;1m                    [0m[90;3m//}   [0m
+    [90m 64[0m[90m▕ [0m[90;3m                    //$message->status = 'YES';[0m
+    [90m 65[0m[90m▕ [0m[90;3m                    //$message->save();   [0m
+    [90m 66[0m[90m▕ [0m[90;3m                    [0m[39;1minfo[0m[35;1m([0m[37m'sukses'[0m[35;1m);[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m62[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: email", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mcoba isikan ya[39m[37m</p>[39m[37m", "1214056rr@gmail.com"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: email[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m62[39m
+    [90m 58[0m[90m▕ [0m[90;3m                        /*dispatch(new SendMailJob([0m
+    [90m 59[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 60[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 61[0m[90m▕ [0m[90;3m                        );*/[0m
+[31;1m  ➜ [0m[3;1m 62[0m[90m▕ [0m[90;3m                        [0m[35;1m\[0m[39;1mMail[0m[35;1m::[0m[39;1mto[0m[35;1m([0m[39;1m$email[0m[35;1m)->[0m[39;1msend[0m[35;1m(new [0m[39;1mMailPortal[0m[35;1m([0m[39;1m$bodyMail[0m[35;1m));[0m
+    [90m 63[0m[90m▕ [0m[35;1m                    [0m[90;3m//}   [0m
+    [90m 64[0m[90m▕ [0m[90;3m                    //$message->status = 'YES';[0m
+    [90m 65[0m[90m▕ [0m[90;3m                    //$message->save();   [0m
+    [90m 66[0m[90m▕ [0m[90;3m                    [0m[39;1minfo[0m[35;1m([0m[37m'sukses'[0m[35;1m);[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m62[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: email", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mcoba isikan ya[39m[37m</p>[39m[37m", "1214056rr@gmail.com"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+^C^C
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reminder.id' in 'where clause' (SQL: select * from `reminder` where `reminder`.`id` = 111 limit 1)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reminder.id' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select * from `reminder` where `reminder`.`id` = ? limit 1")[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: msgyes[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m68[39m
+    [90m 64[0m[90m▕ [0m[35;1m                    [0m[90;3m//}   [0m
+    [90m 65[0m[90m▕ [0m[90;3m                    //$message->status = 'YES';[0m
+    [90m 66[0m[90m▕ [0m[90;3m                    //$message->save();   [0m
+    [90m 67[0m[90m▕ [0m[90;3m                    [0m[39;1m$post [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+[31;1m  ➜ [0m[3;1m 68[0m[90m▕ [0m[35;1m                    [0m[39;1m$post[0m[35;1m->[0m[39;1mstatus [0m[35;1m= [0m[39;1m$msgyes[0m[35;1m;[0m
+    [90m 69[0m[90m▕ [0m[35;1m                    [0m[39;1m$post[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m 70[0m[90m▕ [0m[35;1m                    [0m[39;1minfo[0m[35;1m([0m[37m'sukses'[0m[35;1m);[0m
+    [90m 71[0m[90m▕ [0m[35;1m                }[0m
+    [90m 72[0m[90m▕ [0m[35;1m            });[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m68[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: msgyes", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37m<strong>[39m[37mYth. Peserta Pelatihan[39m[37m</strong>[39m[37m</p>[39m[37m<p>[39m[37m<strong>[39m[37mProfessional Academy[39m[37m</strong>[39m[37m</p>[39m[37m<p>[39m[37m<strong>[39m[37mDigital Talent Scholarship Tahun 2022[39m[37m</strong>[39m[37m</p>[39m[37m<p>[39m[37m<br>[39m[37m</p>[39m[37m<p>[39m[37mSehubungan dengan pelaksanaan pelatihan , berikut disampaikan sebagai pengingat untuk pelaksanaan&nbsp;[39m[37m<em>[39m[37mlive session[39m[37m</em>[39m[37m:[39m[37m</p>[39m[37m<p class="ql-align-justify">[39m[37m<span style="background-color: transparent;">[39m[37mMentor : Abel Kristianto[39m[37m</span>[39m[37m</p>[39m[37m<p class="ql-align-justify">[39m[37m<span style="background-color: transparent;">[39m[37mLink :&nbsp;[39m[37m</span>[39m[37m<a href="https://www.youtube.com/watch?v=UKt-ekRZpMI" target="_blank" style="background-color: transparent; color: rgb(17, 85, 204);">[39m[37mhttps://www.youtube.com/watch?v=UKt-ekRZpMI[39m[37m</a>[39m[37m<span style="background-color: transparent;">[39m[37m&nbsp;[39m[37m</span>[39m[37m</p>[39m[37m<p class="ql-align-justify">[39m[37m<span style="background-color: transparent;">[39m[37mFeedback form :&nbsp;[39m[37m</span>[39m[37m<a href="https://forms.gle/rCxNQRTmL1RhGK7m7" target="_blank" style="background-color: transparent; color: rgb(17, 85, 204);">[39m[37mhttps://forms.gle/rCxNQRTmL1RhGK7m7<...", "1214056rr@gmail.com", Object(App\Models\Portal)])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Swift_RfcComplianceException [49;22m
+
+[39;1m  Address in mailbox given [["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]] does not comply with RFC 2822, 3.6.2.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39m:[32m355[39m
+    [90m351[0m[90m▕ [0m[90;3m     */[0m
+    [90m352[0m[90m▕ [0m[90;3m    [0m[35;1mprivate function [0m[39;1massertValidAddress[0m[35;1m([0m[39;1m$address[0m[35;1m)[0m
+    [90m353[0m[90m▕ [0m[35;1m    {[0m
+    [90m354[0m[90m▕ [0m[35;1m        if (![0m[39;1m$this[0m[35;1m->[0m[39;1memailValidator[0m[35;1m->[0m[39;1misValid[0m[35;1m([0m[39;1m$address[0m[35;1m, new [0m[39;1mRFCValidation[0m[35;1m())) {[0m
+[31;1m  ➜ [0m[3;1m355[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_RfcComplianceException[0m[35;1m([0m[37m'Address in mailbox given ['[0m[35;1m.[0m[39;1m$address[0m[35;1m.[0m[37m'] does not comply with RFC 2822, 3.6.2.'[0m[35;1m);[0m
+    [90m356[0m[90m▕ [0m[35;1m        }[0m
+    [90m357[0m[90m▕ [0m[35;1m    }[0m
+    [90m358[0m[90m▕ [0m[35;1m}[0m
+    [90m359[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m272[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::assertValidAddress("["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::normalizeMailboxes([])[39m
+
+  [41;1m Swift_RfcComplianceException [49;22m
+
+[39;1m  Address in mailbox given [irwanfasihi@gmail.com,abdhi.ika@gmail.com] does not comply with RFC 2822, 3.6.2.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39m:[32m355[39m
+    [90m351[0m[90m▕ [0m[90;3m     */[0m
+    [90m352[0m[90m▕ [0m[90;3m    [0m[35;1mprivate function [0m[39;1massertValidAddress[0m[35;1m([0m[39;1m$address[0m[35;1m)[0m
+    [90m353[0m[90m▕ [0m[35;1m    {[0m
+    [90m354[0m[90m▕ [0m[35;1m        if (![0m[39;1m$this[0m[35;1m->[0m[39;1memailValidator[0m[35;1m->[0m[39;1misValid[0m[35;1m([0m[39;1m$address[0m[35;1m, new [0m[39;1mRFCValidation[0m[35;1m())) {[0m
+[31;1m  ➜ [0m[3;1m355[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_RfcComplianceException[0m[35;1m([0m[37m'Address in mailbox given ['[0m[35;1m.[0m[39;1m$address[0m[35;1m.[0m[37m'] does not comply with RFC 2822, 3.6.2.'[0m[35;1m);[0m
+    [90m356[0m[90m▕ [0m[35;1m        }[0m
+    [90m357[0m[90m▕ [0m[35;1m    }[0m
+    [90m358[0m[90m▕ [0m[35;1m}[0m
+    [90m359[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m272[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::assertValidAddress("irwanfasihi@gmail.com,abdhi.ika@gmail.com")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::normalizeMailboxes([])[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: tandai[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m58[39m
+    [90m 54[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 55[0m[90m▕ [0m[35;1m                {[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+    [90m 57[0m[90m▕ [0m[35;1m                    [0m[39;1m$email [0m[35;1m= [0m[39;1m$message[0m[35;1m->[0m[39;1memailpeserta[0m[35;1m;[0m
+[31;1m  ➜ [0m[3;1m 58[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$tandai [0m[35;1mas [0m[39;1m$email[0m[35;1m) {[0m
+    [90m 59[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 60[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 61[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 62[0m[90m▕ [0m[90;3m                        );*/[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m58[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: tandai", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mdts reminder[39m[37m</p>[39m[37m", "["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Invalid argument supplied for foreach()[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m58[39m
+    [90m 54[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 55[0m[90m▕ [0m[35;1m                {[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+    [90m 57[0m[90m▕ [0m[35;1m                    [0m[39;1m$email [0m[35;1m= [0m[39;1m$message[0m[35;1m->[0m[39;1memailpeserta[0m[35;1m;[0m
+[31;1m  ➜ [0m[3;1m 58[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$email [0m[35;1mas [0m[39;1m$tandai[0m[35;1m) {[0m
+    [90m 59[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 60[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 61[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 62[0m[90m▕ [0m[90;3m                        );*/[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m58[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Invalid argument supplied for foreach()", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mdts reminder[39m[37m</p>[39m[37m", "["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Swift_RfcComplianceException [49;22m
+
+[39;1m  Address in mailbox given [["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]] does not comply with RFC 2822, 3.6.2.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39m:[32m355[39m
+    [90m351[0m[90m▕ [0m[90;3m     */[0m
+    [90m352[0m[90m▕ [0m[90;3m    [0m[35;1mprivate function [0m[39;1massertValidAddress[0m[35;1m([0m[39;1m$address[0m[35;1m)[0m
+    [90m353[0m[90m▕ [0m[35;1m    {[0m
+    [90m354[0m[90m▕ [0m[35;1m        if (![0m[39;1m$this[0m[35;1m->[0m[39;1memailValidator[0m[35;1m->[0m[39;1misValid[0m[35;1m([0m[39;1m$address[0m[35;1m, new [0m[39;1mRFCValidation[0m[35;1m())) {[0m
+[31;1m  ➜ [0m[3;1m355[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_RfcComplianceException[0m[35;1m([0m[37m'Address in mailbox given ['[0m[35;1m.[0m[39;1m$address[0m[35;1m.[0m[37m'] does not comply with RFC 2822, 3.6.2.'[0m[35;1m);[0m
+    [90m356[0m[90m▕ [0m[35;1m        }[0m
+    [90m357[0m[90m▕ [0m[35;1m    }[0m
+    [90m358[0m[90m▕ [0m[35;1m}[0m
+    [90m359[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m272[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::assertValidAddress("["irwanfasihi@gmail.com","abdhi.ika@gmail.com","ceo@digiprener.com","achmadduwiksaputro@gmail.com","ad4m.hermawan@gmail.com"]")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::normalizeMailboxes([])[39m
+
+  [41;1m Error [49;22m
+
+[39;1m  Call to a member function toArray() on string[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m57[39m
+    [90m 53[0m[90m▕ [0m[90;3m            [0m[39;1m$messages[0m[35;1m->[0m[39;1mwhere[0m[35;1m([0m[37m'datetimeschedule'[0m[35;1m,[0m[37m'='[0m[35;1m, [0m[39;1m$now[0m[35;1m)->[0m[39;1meach[0m[35;1m(function([0m[39;1m$message[0m[35;1m) {[0m
+    [90m 54[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 55[0m[90m▕ [0m[35;1m                {[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+[31;1m  ➜ [0m[3;1m 57[0m[90m▕ [0m[35;1m                    [0m[39;1m$email [0m[35;1m= [0m[39;1m$message[0m[35;1m->[0m[39;1memailpeserta[0m[35;1m->[0m[39;1mtoArray[0m[35;1m();[0m
+    [90m 58[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$email [0m[35;1mas [0m[39;1m$tandai[0m[35;1m) {[0m
+    [90m 59[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 60[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 61[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m72[39;22m
+  [37m    Illuminate\Support\Collection::each(Object(Closure))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Invalid argument supplied for foreach()[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m58[39m
+    [90m 54[0m[90m▕ [0m[35;1m                if([0m[39;1m$message[0m[35;1m->[0m[39;1mstatus [0m[35;1m== [0m[37m"NO"[0m[35;1m)[0m
+    [90m 55[0m[90m▕ [0m[35;1m                {[0m
+    [90m 56[0m[90m▕ [0m[35;1m                    [0m[39;1m$bodyMail [0m[35;1m=[0m[39;1m$message[0m[35;1m->[0m[39;1mpesan[0m[35;1m;[0m
+    [90m 57[0m[90m▕ [0m[35;1m                    [0m[39;1m$email [0m[35;1m= [0m[39;1mjson_decode[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1memailpeserta[0m[35;1m, [0m[39;1mtrue[0m[35;1m);[0m
+[31;1m  ➜ [0m[3;1m 58[0m[90m▕ [0m[35;1m                    foreach ([0m[39;1m$email [0m[35;1mas [0m[39;1m$tandai[0m[35;1m) {[0m
+    [90m 59[0m[90m▕ [0m[35;1m                        [0m[90;3m/*dispatch(new SendMailJob([0m
+    [90m 60[0m[90m▕ [0m[90;3m                            $email, [0m
+    [90m 61[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 62[0m[90m▕ [0m[90;3m                        );*/[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m58[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Invalid argument supplied for foreach()", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37misikan yeyeyey[39m[37m</p>[39m[37m"])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+^C
+  [41;1m Exception [49;22m
+
+[39;1m  Property [namapeserta] does not exist on this collection instance.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39m:[32m968[39m
+    [90m964[0m[90m▕ [0m[90;3m     */[0m
+    [90m965[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1m__get[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m966[0m[90m▕ [0m[35;1m    {[0m
+    [90m967[0m[90m▕ [0m[35;1m        if (! [0m[39;1min_array[0m[35;1m([0m[39;1m$key[0m[35;1m, static::[0m[39;1m$proxies[0m[35;1m)) {[0m
+[31;1m  ➜ [0m[3;1m968[0m[90m▕ [0m[35;1m            throw new [0m[39;1mException[0m[35;1m([0m[37m"Property [[0m[35;1m{[0m[39;1m$key[0m[35;1m}[0m[37m] does not exist on this collection instance."[0m[35;1m);[0m
+    [90m969[0m[90m▕ [0m[35;1m        }[0m
+    [90m970[0m[90m▕ [0m
+    [90m971[0m[90m▕ [0m[35;1m        return new [0m[39;1mHigherOrderCollectionProxy[0m[35;1m([0m[39;1m$this[0m[35;1m, [0m[39;1m$key[0m[35;1m);[0m
+    [90m972[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m68[39;22m
+  [37m    Illuminate\Support\Collection::__get("namapeserta")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Exception [49;22m
+
+[39;1m  Property [namapeserta] does not exist on this collection instance.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39m:[32m968[39m
+    [90m964[0m[90m▕ [0m[90;3m     */[0m
+    [90m965[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1m__get[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m966[0m[90m▕ [0m[35;1m    {[0m
+    [90m967[0m[90m▕ [0m[35;1m        if (! [0m[39;1min_array[0m[35;1m([0m[39;1m$key[0m[35;1m, static::[0m[39;1m$proxies[0m[35;1m)) {[0m
+[31;1m  ➜ [0m[3;1m968[0m[90m▕ [0m[35;1m            throw new [0m[39;1mException[0m[35;1m([0m[37m"Property [[0m[35;1m{[0m[39;1m$key[0m[35;1m}[0m[37m] does not exist on this collection instance."[0m[35;1m);[0m
+    [90m969[0m[90m▕ [0m[35;1m        }[0m
+    [90m970[0m[90m▕ [0m
+    [90m971[0m[90m▕ [0m[35;1m        return new [0m[39;1mHigherOrderCollectionProxy[0m[35;1m([0m[39;1m$this[0m[35;1m, [0m[39;1m$key[0m[35;1m);[0m
+    [90m972[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m68[39;22m
+  [37m    Illuminate\Support\Collection::__get("namapeserta")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'prosertiproablast.peserta.namapeserta' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by (SQL: select `namapeserta` from `peserta` where `email` = 1214056rr@gmail.com group by `email`)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'prosertiproablast.peserta.namapeserta' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select `namapeserta` from `peserta` where `email` = ? group by `email`")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email,namapeserta' in 'group statement' (SQL: select `namapeserta` from `peserta` where `email` = 1214056rr@gmail.com group by `email,namapeserta`)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email,namapeserta' in 'group statement'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select `namapeserta` from `peserta` where `email` = ? group by `email,namapeserta`")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email,namapeserta' in 'group statement' (SQL: select `namapeserta` from `peserta` where `email` = 1214056rr@gmail.com group by `email,namapeserta`)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email,namapeserta' in 'group statement'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select `namapeserta` from `peserta` where `email` = ? group by `email,namapeserta`")[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Array to string conversion[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m68[39m
+    [90m 64[0m[90m▕ [0m[90;3m                            new UserEmail($bodyMail))[0m
+    [90m 65[0m[90m▕ [0m[90;3m                        );*/[0m
+    [90m 66[0m[90m▕ [0m[90;3m                        [0m[39;1m$namapeserta2 [0m[35;1m=[0m[39;1mpesertaproa[0m[35;1m::[0m[39;1mselect[0m[35;1m([0m[37m'namapeserta'[0m[35;1m)->[0m[39;1mwhere[0m[35;1m([0m[37m'email'[0m[35;1m, [0m[39;1m$tandai[0m[35;1m)->[0m[39;1mlimit[0m[35;1m([0m[39;1m1[0m[35;1m)->[0m[39;1mget[0m[35;1m()->[0m[39;1mpluck[0m[35;1m([0m[37m'namapeserta'[0m[35;1m);[0m
+    [90m 67[0m[90m▕ [0m[35;1m       [0m
+[31;1m  ➜ [0m[3;1m 68[0m[90m▕ [0m[35;1m                        [0m[39;1m$sbj [0m[35;1m= ([0m[39;1m$message[0m[35;1m->[0m[39;1msubject[0m[35;1m).[0m[37m'-'[0m[35;1m.([0m[39;1mjson_decode[0m[35;1m([0m[39;1m$namapeserta2[0m[35;1m,[0m[39;1mtrue[0m[35;1m));[0m
+    [90m 69[0m[90m▕ [0m[35;1m                        \[0m[39;1mMail[0m[35;1m::[0m[39;1mto[0m[35;1m([0m[39;1m$tandai[0m[35;1m)->[0m[39;1msend[0m[35;1m(new [0m[39;1mMailPortal[0m[35;1m([0m[39;1m$bodyMail[0m[35;1m,[0m[39;1m$sbj[0m[35;1m));[0m
+    [90m 70[0m[90m▕ [0m[35;1m                    }   [0m
+    [90m 71[0m[90m▕ [0m[35;1m                    [0m[90;3m//$message->status = 'YES';[0m
+    [90m 72[0m[90m▕ [0m[90;3m                    //$message->save();   [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m68[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Array to string conversion", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php", [Object(App\Models\Portal), "[39m[37m<p>[39m[37mtes[39m[37m</p>[39m[37m", "1214056rr@gmail.com", Object(Illuminate\Support\Collection)])[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:465", "")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:465", "")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): unable to connect to tsl://smtp.kominfo.go.id:465 (Unable to find the socket transport "tsl" - did you forget to enable it when you configured PHP?)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): unable to connect to tsl://smtp.kominfo.go.id:465 (Unable to find the socket transport "tsl" - did you forget to enable it when you configured PHP?)", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("tsl://smtp.kominfo.go.id:465", "Unable to find the socket transport "tsl" - did you forget to enable it when you configured PHP?")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection to tcp://smtp.kominfo.go.id:465 Timed Out[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m475[39m
+    [90m471[0m[90m▕ [0m[35;1m            } while ([0m[39;1mnull [0m[35;1m!== [0m[39;1m$line [0m[35;1m&& [0m[39;1mfalse [0m[35;1m!== [0m[39;1m$line [0m[35;1m&& [0m[37m' ' [0m[35;1m!= [0m[39;1m$line[0m[35;1m[[0m[39;1m3[0m[35;1m]);[0m
+    [90m472[0m[90m▕ [0m[35;1m        } catch ([0m[39;1mSwift_TransportException $e[0m[35;1m) {[0m
+    [90m473[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m([0m[39;1m$e[0m[35;1m);[0m
+    [90m474[0m[90m▕ [0m[35;1m        } catch ([0m[39;1mSwift_IoException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m475[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$e[0m[35;1m->[0m[39;1mgetMessage[0m[35;1m(), [0m[39;1m0[0m[35;1m, [0m[39;1m$e[0m[35;1m));[0m
+    [90m476[0m[90m▕ [0m[35;1m        }[0m
+    [90m477[0m[90m▕ [0m
+    [90m478[0m[90m▕ [0m[35;1m        return [0m[39;1m$response[0m[35;1m;[0m
+    [90m479[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m166[39;22m
+  [37m    Swift_IoException::("Connection to tcp://smtp.kominfo.go.id:465 Timed Out")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m469[39;22m
+  [37m    Swift_Transport_StreamBuffer::readLine()[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m94[39m
+    [90m 90[0m[90m▕ [0m[35;1m        [0m[90;3m// STREAM_CRYPTO_METHOD_TLS_CLIENT only allow tls1.0 connections (some php versions)[0m
+    [90m 91[0m[90m▕ [0m[90;3m        // To support modern tls we allow explicit tls1.0, tls1.1, tls1.2[0m
+    [90m 92[0m[90m▕ [0m[90;3m        // Ssl3 and older are not allowed because they are vulnerable[0m
+    [90m 93[0m[90m▕ [0m[90;3m        // @TODO make tls arguments configurable[0m
+[31;1m  ➜ [0m[3;1m 94[0m[90m▕ [0m[90;3m        [0m[35;1mreturn [0m[39;1mstream_socket_enable_crypto[0m[35;1m([0m[39;1m$this[0m[35;1m->[0m[39;1mstream[0m[35;1m, [0m[39;1mtrue[0m[35;1m, [0m[39;1mSTREAM_CRYPTO_METHOD_TLSv1_0_CLIENT [0m[35;1m| [0m[39;1mSTREAM_CRYPTO_METHOD_TLSv1_1_CLIENT [0m[35;1m| [0m[39;1mSTREAM_CRYPTO_METHOD_TLSv1_2_CLIENT[0m[35;1m);[0m
+    [90m 95[0m[90m▕ [0m[35;1m    }[0m
+    [90m 96[0m[90m▕ [0m
+    [90m 97[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+    [90m 98[0m[90m▕ [0m[90;3m     * Perform any shutdown logic needed.[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m94[39;22m
+  [37m    stream_socket_enable_crypto()[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m348[39;22m
+  [37m    Swift_Transport_StreamBuffer::startTLS()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Process could not be started [The system cannot find the path specified.
+][39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m294[39m
+    [90m290[0m[90m▕ [0m[35;1m        [0m[39;1m$pipes [0m[35;1m= [];[0m
+    [90m291[0m[90m▕ [0m[35;1m        [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mproc_open[0m[35;1m([0m[39;1m$command[0m[35;1m, [0m[39;1m$descriptorSpec[0m[35;1m, [0m[39;1m$pipes[0m[35;1m);[0m
+    [90m292[0m[90m▕ [0m[35;1m        [0m[39;1mstream_set_blocking[0m[35;1m([0m[39;1m$pipes[0m[35;1m[[0m[39;1m2[0m[35;1m], [0m[39;1m0[0m[35;1m);[0m
+    [90m293[0m[90m▕ [0m[35;1m        if ([0m[39;1m$err [0m[35;1m= [0m[39;1mstream_get_contents[0m[35;1m([0m[39;1m$pipes[0m[35;1m[[0m[39;1m2[0m[35;1m])) {[0m
+[31;1m  ➜ [0m[3;1m294[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Process could not be started ['[0m[35;1m.[0m[39;1m$err[0m[35;1m.[0m[37m']'[0m[35;1m);[0m
+    [90m295[0m[90m▕ [0m[35;1m        }[0m
+    [90m296[0m[90m▕ [0m[35;1m        [0m[39;1m$this[0m[35;1m->[0m[39;1min [0m[35;1m= &[0m[39;1m$pipes[0m[35;1m[[0m[39;1m0[0m[35;1m];[0m
+    [90m297[0m[90m▕ [0m[35;1m        [0m[39;1m$this[0m[35;1m->[0m[39;1mout [0m[35;1m= &[0m[39;1m$pipes[0m[35;1m[[0m[39;1m1[0m[35;1m];[0m
+    [90m298[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m54[39;22m
+  [37m    Swift_Transport_StreamBuffer::establishProcessConnection()[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\SendmailTransport.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Transport_StreamBuffer::initialize(["/usr/sbin/sendmail -t -i -f"noreply-proa@mail.kominfo.go.id""])[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:465", "")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Failed to authenticate on SMTP server with username "noreply-proa@mail.kominfo.go.id" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+".[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php[39m:[32m191[39m
+    [90m187[0m[90m▕ [0m[35;1m            [0m[39;1m$message [0m[35;1m= [0m[37m'Failed to authenticate on SMTP server with username "'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1musername[0m[35;1m.[0m[37m'" using '[0m[35;1m.[0m[39;1m$count[0m[35;1m.[0m[37m' possible authenticators.'[0m[35;1m;[0m
+    [90m188[0m[90m▕ [0m[35;1m            foreach ([0m[39;1m$errors [0m[35;1mas [0m[39;1m$error[0m[35;1m) {[0m
+    [90m189[0m[90m▕ [0m[35;1m                [0m[39;1m$message [0m[35;1m.= [0m[37m' Authenticator '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m0[0m[35;1m].[0m[37m' returned '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m1[0m[35;1m].[0m[37m'.'[0m[35;1m;[0m
+    [90m190[0m[90m▕ [0m[35;1m            }[0m
+[31;1m  ➜ [0m[3;1m191[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$message[0m[35;1m);[0m
+    [90m192[0m[90m▕ [0m[35;1m        }[0m
+    [90m193[0m[90m▕ [0m[35;1m    }[0m
+    [90m194[0m[90m▕ [0m
+    [90m195[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m371[39;22m
+  [37m    Swift_Transport_Esmtp_AuthHandler::afterEhlo(Object(Swift_SmtpTransport))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m148[39;22m
+  [37m    Swift_Transport_EsmtpTransport::doHeloCommand()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Failed to authenticate on SMTP server with username "noreply-proa@mail.kominfo.go.id" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+".[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php[39m:[32m191[39m
+    [90m187[0m[90m▕ [0m[35;1m            [0m[39;1m$message [0m[35;1m= [0m[37m'Failed to authenticate on SMTP server with username "'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1musername[0m[35;1m.[0m[37m'" using '[0m[35;1m.[0m[39;1m$count[0m[35;1m.[0m[37m' possible authenticators.'[0m[35;1m;[0m
+    [90m188[0m[90m▕ [0m[35;1m            foreach ([0m[39;1m$errors [0m[35;1mas [0m[39;1m$error[0m[35;1m) {[0m
+    [90m189[0m[90m▕ [0m[35;1m                [0m[39;1m$message [0m[35;1m.= [0m[37m' Authenticator '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m0[0m[35;1m].[0m[37m' returned '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m1[0m[35;1m].[0m[37m'.'[0m[35;1m;[0m
+    [90m190[0m[90m▕ [0m[35;1m            }[0m
+[31;1m  ➜ [0m[3;1m191[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$message[0m[35;1m);[0m
+    [90m192[0m[90m▕ [0m[35;1m        }[0m
+    [90m193[0m[90m▕ [0m[35;1m    }[0m
+    [90m194[0m[90m▕ [0m
+    [90m195[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m371[39;22m
+  [37m    Swift_Transport_Esmtp_AuthHandler::afterEhlo(Object(Swift_SmtpTransport))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m148[39;22m
+  [37m    Swift_Transport_EsmtpTransport::doHeloCommand()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Failed to authenticate on SMTP server with username "noreply-proa@mail.kominfo.go.id" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+".[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php[39m:[32m191[39m
+    [90m187[0m[90m▕ [0m[35;1m            [0m[39;1m$message [0m[35;1m= [0m[37m'Failed to authenticate on SMTP server with username "'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1musername[0m[35;1m.[0m[37m'" using '[0m[35;1m.[0m[39;1m$count[0m[35;1m.[0m[37m' possible authenticators.'[0m[35;1m;[0m
+    [90m188[0m[90m▕ [0m[35;1m            foreach ([0m[39;1m$errors [0m[35;1mas [0m[39;1m$error[0m[35;1m) {[0m
+    [90m189[0m[90m▕ [0m[35;1m                [0m[39;1m$message [0m[35;1m.= [0m[37m' Authenticator '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m0[0m[35;1m].[0m[37m' returned '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m1[0m[35;1m].[0m[37m'.'[0m[35;1m;[0m
+    [90m190[0m[90m▕ [0m[35;1m            }[0m
+[31;1m  ➜ [0m[3;1m191[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$message[0m[35;1m);[0m
+    [90m192[0m[90m▕ [0m[35;1m        }[0m
+    [90m193[0m[90m▕ [0m[35;1m    }[0m
+    [90m194[0m[90m▕ [0m
+    [90m195[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m371[39;22m
+  [37m    Swift_Transport_Esmtp_AuthHandler::afterEhlo(Object(Swift_SmtpTransport))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m148[39;22m
+  [37m    Swift_Transport_EsmtpTransport::doHeloCommand()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): php_network_getaddresses: getaddrinfo failed: No such host is known.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): php_network_getaddresses: getaddrinfo failed: No such host is known. ", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("tcp://smtp.kominfo.go.id:465", "php_network_getaddresses: getaddrinfo failed: No such host is known. ")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection to tcp://smtp.kominfo.go.id:465 Timed Out[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m475[39m
+    [90m471[0m[90m▕ [0m[35;1m            } while ([0m[39;1mnull [0m[35;1m!== [0m[39;1m$line [0m[35;1m&& [0m[39;1mfalse [0m[35;1m!== [0m[39;1m$line [0m[35;1m&& [0m[37m' ' [0m[35;1m!= [0m[39;1m$line[0m[35;1m[[0m[39;1m3[0m[35;1m]);[0m
+    [90m472[0m[90m▕ [0m[35;1m        } catch ([0m[39;1mSwift_TransportException $e[0m[35;1m) {[0m
+    [90m473[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m([0m[39;1m$e[0m[35;1m);[0m
+    [90m474[0m[90m▕ [0m[35;1m        } catch ([0m[39;1mSwift_IoException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m475[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$e[0m[35;1m->[0m[39;1mgetMessage[0m[35;1m(), [0m[39;1m0[0m[35;1m, [0m[39;1m$e[0m[35;1m));[0m
+    [90m476[0m[90m▕ [0m[35;1m        }[0m
+    [90m477[0m[90m▕ [0m
+    [90m478[0m[90m▕ [0m[35;1m        return [0m[39;1m$response[0m[35;1m;[0m
+    [90m479[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m166[39;22m
+  [37m    Swift_IoException::("Connection to tcp://smtp.kominfo.go.id:465 Timed Out")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m469[39;22m
+  [37m    Swift_Transport_StreamBuffer::readLine()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL: An existing connection was forcibly closed by the remote host.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL: An existing connection was forcibly closed by the remote host.
+", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:587", "")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): unable to connect to ssl://smtp.kominfo.go.id:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): unable to connect to ssl://smtp.kominfo.go.id:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:2525", "A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): unable to connect to ssl://smtp.kominfo.go.id:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): unable to connect to ssl://smtp.kominfo.go.id:2525 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:2525", "A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:465", "")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `reminder` where `status` = NO)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDOException::("SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDO::__construct("mysql:host=127.0.0.1;port=3306;dbname=prosertiproablast", "root", "", [])[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `reminder` where `status` = NO)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDOException::("SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDO::__construct("mysql:host=127.0.0.1;port=3306;dbname=prosertiproablast", "root", "", [])[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `reminder` where `status` = NO)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDOException::("SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDO::__construct("mysql:host=127.0.0.1;port=3306;dbname=prosertiproablast", "root", "", [])[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ (SQL: select * from `reminder` where `status` = NO)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDOException::("SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php[39;22m:[39;1m70[39;22m
+  [37m    PDO::__construct("mysql:host=127.0.0.1;port=3306;dbname=prosertiproablast", "root", "", [])[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Connection could not be established with host smtp.kominfo.go.id :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39m:[32m261[39m
+    [90m257[0m[90m▕ [0m[35;1m        }[0m
+    [90m258[0m[90m▕ [0m[35;1m        [0m[39;1m$streamContext [0m[35;1m= [0m[39;1mstream_context_create[0m[35;1m([0m[39;1m$options[0m[35;1m);[0m
+    [90m259[0m[90m▕ [0m
+    [90m260[0m[90m▕ [0m[35;1m        [0m[39;1mset_error_handler[0m[35;1m(function ([0m[39;1m$type[0m[35;1m, [0m[39;1m$msg[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m261[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Connection could not be established with host '[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'host'[0m[35;1m].[0m[37m' :'[0m[35;1m.[0m[39;1m$msg[0m[35;1m);[0m
+    [90m262[0m[90m▕ [0m[35;1m        });[0m
+    [90m263[0m[90m▕ [0m[35;1m        try {[0m
+    [90m264[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mstream [0m[35;1m= [0m[39;1mstream_socket_client[0m[35;1m([0m[39;1m$host[0m[35;1m.[0m[37m':'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1mparams[0m[35;1m[[0m[37m'port'[0m[35;1m], [0m[39;1m$errno[0m[35;1m, [0m[39;1m$errstr[0m[35;1m, [0m[39;1m$timeout[0m[35;1m, [0m[39;1mSTREAM_CLIENT_CONNECT[0m[35;1m, [0m[39;1m$streamContext[0m[35;1m);[0m
+    [90m265[0m[90m▕ [0m[35;1m        } finally {[0m
+
+  [33m1   [39m[39;1m[internal][39;22m:[39;1m0[39;22m
+  [37m    Swift_Transport_StreamBuffer::{closure}("stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed", "C:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php[39;22m:[39;1m264[39;22m
+  [37m    stream_socket_client("ssl://smtp.kominfo.go.id:465", "")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Failed to authenticate on SMTP server with username "noreply-proa@mail.kominfo.go.id" using 2 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535 5.7.8 Error: authentication failed: authentication failure
+".[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php[39m:[32m191[39m
+    [90m187[0m[90m▕ [0m[35;1m            [0m[39;1m$message [0m[35;1m= [0m[37m'Failed to authenticate on SMTP server with username "'[0m[35;1m.[0m[39;1m$this[0m[35;1m->[0m[39;1musername[0m[35;1m.[0m[37m'" using '[0m[35;1m.[0m[39;1m$count[0m[35;1m.[0m[37m' possible authenticators.'[0m[35;1m;[0m
+    [90m188[0m[90m▕ [0m[35;1m            foreach ([0m[39;1m$errors [0m[35;1mas [0m[39;1m$error[0m[35;1m) {[0m
+    [90m189[0m[90m▕ [0m[35;1m                [0m[39;1m$message [0m[35;1m.= [0m[37m' Authenticator '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m0[0m[35;1m].[0m[37m' returned '[0m[35;1m.[0m[39;1m$error[0m[35;1m[[0m[39;1m1[0m[35;1m].[0m[37m'.'[0m[35;1m;[0m
+    [90m190[0m[90m▕ [0m[35;1m            }[0m
+[31;1m  ➜ [0m[3;1m191[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_TransportException[0m[35;1m([0m[39;1m$message[0m[35;1m);[0m
+    [90m192[0m[90m▕ [0m[35;1m        }[0m
+    [90m193[0m[90m▕ [0m[35;1m    }[0m
+    [90m194[0m[90m▕ [0m
+    [90m195[0m[90m▕ [0m[35;1m    [0m[90;3m/**[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m371[39;22m
+  [37m    Swift_Transport_Esmtp_AuthHandler::afterEhlo(Object(Swift_SmtpTransport))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m148[39;22m
+  [37m    Swift_Transport_EsmtpTransport::doHeloCommand()[39m
+
+  [41;1m Swift_TransportException [49;22m
+
+[39;1m  Expected response code 354 but got code "554", with message "554 5.5.1 Error: no valid recipients
+"[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39m:[32m459[39m
+    [90m455[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1meventDispatcher[0m[35;1m->[0m[39;1mdispatchEvent[0m[35;1m([0m[39;1m$evt[0m[35;1m, [0m[37m'responseReceived'[0m[35;1m);[0m
+    [90m456[0m[90m▕ [0m[35;1m        }[0m
+    [90m457[0m[90m▕ [0m
+    [90m458[0m[90m▕ [0m[35;1m        if (![0m[39;1m$valid[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m459[0m[90m▕ [0m[35;1m            [0m[39;1m$this[0m[35;1m->[0m[39;1mthrowException[0m[35;1m(new [0m[39;1mSwift_TransportException[0m[35;1m([0m[37m'Expected response code '[0m[35;1m.[0m[39;1mimplode[0m[35;1m([0m[37m'/'[0m[35;1m, [0m[39;1m$wanted[0m[35;1m).[0m[37m' but got code "'[0m[35;1m.[0m[39;1m$code[0m[35;1m.[0m[37m'", with message "'[0m[35;1m.[0m[39;1m$response[0m[35;1m.[0m[37m'"'[0m[35;1m, [0m[39;1m$code[0m[35;1m));[0m
+    [90m460[0m[90m▕ [0m[35;1m        }[0m
+    [90m461[0m[90m▕ [0m[35;1m    }[0m
+    [90m462[0m[90m▕ [0m
+    [90m463[0m[90m▕ [0m[35;1m    [0m[90;3m/** Get an entire multi-line response using its sequence number */[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php[39;22m:[39;1m344[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::assertResponseCode("554 5.5.1 Error: no valid recipients
+")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php[39;22m:[39;1m305[39;22m
+  [37m    Swift_Transport_AbstractSmtpTransport::executeCommand("DATA
+")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause' (SQL: select `voucher_code` from `kodevouchercdl2022` where (`0` = email and `1` = = and `2` = 1214056rr@gmail.com) limit 1)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select `voucher_code` from `kodevouchercdl2022` where (`0` = ? and `1` = ? and `2` = ?) limit 1")[39m
+
+  [41;1m Illuminate\Database\QueryException [49;22m
+
+[39;1m  SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause' (SQL: select `voucher_code` from `kodevouchercdl2022` where (`0` = email and `1` = = and `2` = 1214056rr@gmail.com) limit 1)[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39m:[32m712[39m
+    [90m708[0m[90m▕ [0m[35;1m        [0m[90;3m// If an exception occurs when attempting to run a query, we'll format the error[0m
+    [90m709[0m[90m▕ [0m[90;3m        // message to include the bindings with SQL, which will make this exception a[0m
+    [90m710[0m[90m▕ [0m[90;3m        // lot more helpful to the developer instead of just the database's errors.[0m
+    [90m711[0m[90m▕ [0m[90;3m        [0m[35;1mcatch ([0m[39;1mException $e[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m712[0m[90m▕ [0m[35;1m            throw new [0m[39;1mQueryException[0m[35;1m([0m
+    [90m713[0m[90m▕ [0m[35;1m                [0m[39;1m$query[0m[35;1m, [0m[39;1m$this[0m[35;1m->[0m[39;1mprepareBindings[0m[35;1m([0m[39;1m$bindings[0m[35;1m), [0m[39;1m$e[0m
+    [90m714[0m[90m▕ [0m[39;1m            [0m[35;1m);[0m
+    [90m715[0m[90m▕ [0m[35;1m        }[0m
+    [90m716[0m[90m▕ [0m[35;1m    }[0m
+
+  [34;1m• [39;22m[39;1mA column was not found[39;22m: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    [34mhttps://laravel.com/docs/master/migrations#running-migrations[39m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause'")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Database\Connection.php[39;22m:[39;1m368[39;22m
+  [37m    PDO::prepare("select `voucher_code` from `kodevouchercdl2022` where (`0` = ? and `1` = ? and `2` = ?) limit 1")[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Creating default object from empty value[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m93[39m
+    [90m 89[0m[90m▕ [0m[35;1m                    }   [0m
+    [90m 90[0m[90m▕ [0m[35;1m                    [0m[90;3m//$message->status = 'YES';[0m
+    [90m 91[0m[90m▕ [0m[90;3m                    //$message->save();   [0m
+    [90m 92[0m[90m▕ [0m[90;3m                    [0m[39;1m$post [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+[31;1m  ➜ [0m[3;1m 93[0m[90m▕ [0m[35;1m                    [0m[39;1m$post[0m[35;1m->[0m[39;1mstatus [0m[35;1m= [0m[37m"YES"[0m[35;1m;[0m
+    [90m 94[0m[90m▕ [0m[35;1m                    [0m[39;1m$post[0m[35;1m->[0m[39;1mlastsendtime [0m[35;1m= [0m[39;1mnow[0m[35;1m();[0m
+    [90m 95[0m[90m▕ [0m[35;1m                    [0m[39;1m$post[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m 96[0m[90m▕ [0m[35;1m                    [0m[39;1minfo[0m[35;1m([0m[37m'sukses'[0m[35;1m);[0m
+    [90m 97[0m[90m▕ [0m[35;1m                }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m93[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Creating default object from empty value", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Exception [49;22m
+
+[39;1m  Property [email] does not exist on this collection instance.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39m:[32m968[39m
+    [90m964[0m[90m▕ [0m[90;3m     */[0m
+    [90m965[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1m__get[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m966[0m[90m▕ [0m[35;1m    {[0m
+    [90m967[0m[90m▕ [0m[35;1m        if (! [0m[39;1min_array[0m[35;1m([0m[39;1m$key[0m[35;1m, static::[0m[39;1m$proxies[0m[35;1m)) {[0m
+[31;1m  ➜ [0m[3;1m968[0m[90m▕ [0m[35;1m            throw new [0m[39;1mException[0m[35;1m([0m[37m"Property [[0m[35;1m{[0m[39;1m$key[0m[35;1m}[0m[37m] does not exist on this collection instance."[0m[35;1m);[0m
+    [90m969[0m[90m▕ [0m[35;1m        }[0m
+    [90m970[0m[90m▕ [0m
+    [90m971[0m[90m▕ [0m[35;1m        return new [0m[39;1mHigherOrderCollectionProxy[0m[35;1m([0m[39;1m$this[0m[35;1m, [0m[39;1m$key[0m[35;1m);[0m
+    [90m972[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m67[39;22m
+  [37m    Illuminate\Support\Collection::__get("email")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Swift_RfcComplianceException [49;22m
+
+[39;1m  Address in mailbox given [{idtemplate:581,noreg:15216466-007,voucher_code:AZZ92Z2uuwDeNZid,nama:Ranti Ramadhiana,tema:Data Scientist batch 2,email:1214056rr@gmail.com,status:OK,tanggalkirim:2022-06-15 10:28:20}] does not comply with RFC 2822, 3.6.2.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39m:[32m355[39m
+    [90m351[0m[90m▕ [0m[90;3m     */[0m
+    [90m352[0m[90m▕ [0m[90;3m    [0m[35;1mprivate function [0m[39;1massertValidAddress[0m[35;1m([0m[39;1m$address[0m[35;1m)[0m
+    [90m353[0m[90m▕ [0m[35;1m    {[0m
+    [90m354[0m[90m▕ [0m[35;1m        if (![0m[39;1m$this[0m[35;1m->[0m[39;1memailValidator[0m[35;1m->[0m[39;1misValid[0m[35;1m([0m[39;1m$address[0m[35;1m, new [0m[39;1mRFCValidation[0m[35;1m())) {[0m
+[31;1m  ➜ [0m[3;1m355[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_RfcComplianceException[0m[35;1m([0m[37m'Address in mailbox given ['[0m[35;1m.[0m[39;1m$address[0m[35;1m.[0m[37m'] does not comply with RFC 2822, 3.6.2.'[0m[35;1m);[0m
+    [90m356[0m[90m▕ [0m[35;1m        }[0m
+    [90m357[0m[90m▕ [0m[35;1m    }[0m
+    [90m358[0m[90m▕ [0m[35;1m}[0m
+    [90m359[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m272[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::assertValidAddress("{idtemplate:581,noreg:15216466-007,voucher_code:AZZ92Z2uuwDeNZid,nama:Ranti Ramadhiana,tema:Data Scientist batch 2,email:1214056rr@gmail.com,status:OK,tanggalkirim:2022-06-15 10:28:20}")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::normalizeMailboxes([])[39m
+
+  [41;1m Exception [49;22m
+
+[39;1m  Property [email] does not exist on this collection instance.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39m:[32m968[39m
+    [90m964[0m[90m▕ [0m[90;3m     */[0m
+    [90m965[0m[90m▕ [0m[90;3m    [0m[35;1mpublic function [0m[39;1m__get[0m[35;1m([0m[39;1m$key[0m[35;1m)[0m
+    [90m966[0m[90m▕ [0m[35;1m    {[0m
+    [90m967[0m[90m▕ [0m[35;1m        if (! [0m[39;1min_array[0m[35;1m([0m[39;1m$key[0m[35;1m, static::[0m[39;1m$proxies[0m[35;1m)) {[0m
+[31;1m  ➜ [0m[3;1m968[0m[90m▕ [0m[35;1m            throw new [0m[39;1mException[0m[35;1m([0m[37m"Property [[0m[35;1m{[0m[39;1m$key[0m[35;1m}[0m[37m] does not exist on this collection instance."[0m[35;1m);[0m
+    [90m969[0m[90m▕ [0m[35;1m        }[0m
+    [90m970[0m[90m▕ [0m
+    [90m971[0m[90m▕ [0m[35;1m        return new [0m[39;1mHigherOrderCollectionProxy[0m[35;1m([0m[39;1m$this[0m[35;1m, [0m[39;1m$key[0m[35;1m);[0m
+    [90m972[0m[90m▕ [0m[35;1m    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m69[39;22m
+  [37m    Illuminate\Support\Collection::__get("email")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Error [49;22m
+
+[39;1m  Class 'App\Console\Commands\Mail' not found[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m91[39m
+    [90m 87[0m[90m▕ [0m[35;1m                        }[0m
+    [90m 88[0m[90m▕ [0m
+    [90m 89[0m[90m▕ [0m[35;1m                        [0m[39;1m$errorlog[0m[35;1m=[0m[37m""[0m[35;1m;[0m
+    [90m 90[0m[90m▕ [0m
+[31;1m  ➜ [0m[3;1m 91[0m[90m▕ [0m[35;1m                        if( [0m[39;1mcount[0m[35;1m([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m()) > [0m[39;1m0 [0m[35;1m) {[0m
+    [90m 92[0m[90m▕ [0m[35;1m                           foreach([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m() as [0m[39;1m$email_address[0m[35;1m) {[0m
+    [90m 93[0m[90m▕ [0m[35;1m                               [0m[39;1m$errorlog [0m[35;1m.= [0m[37m" - [0m[39;1m$email_address[0m[37m <br />"[0m[35;1m;[0m
+    [90m 94[0m[90m▕ [0m[35;1m                            }[0m
+    [90m 95[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m133[39;22m
+  [37m    Illuminate\Support\Collection::each(Object(Closure))[39m
+
+  [41;1m Error [49;22m
+
+[39;1m  Class 'App\Console\Commands\Mail' not found[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m106[39m
+    [90m102[0m[90m▕ [0m[35;1m                          [0m
+    [90m103[0m[90m▕ [0m
+    [90m104[0m[90m▕ [0m[35;1m                    [0m[39;1m$errorlog[0m[35;1m=[0m[37m""[0m[35;1m;[0m
+    [90m105[0m[90m▕ [0m
+[31;1m  ➜ [0m[3;1m106[0m[90m▕ [0m[35;1m                    if([0m[39;1mcount[0m[35;1m([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m()) > [0m[39;1m0 [0m[35;1m) {[0m
+    [90m107[0m[90m▕ [0m[35;1m                       foreach([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m() as [0m[39;1m$email_address[0m[35;1m) {[0m
+    [90m108[0m[90m▕ [0m[35;1m                           [0m[39;1m$errorlog [0m[35;1m.= [0m[37m" - [0m[39;1m$email_address[0m[37m <br />"[0m[35;1m;[0m
+    [90m109[0m[90m▕ [0m[35;1m                        }[0m
+    [90m110[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m123[39;22m
+  [37m    Illuminate\Support\Collection::each(Object(Closure))[39m
+
+  [41;1m Error [49;22m
+
+[39;1m  Class 'App\Console\Commands\Mail' not found[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m86[39m
+    [90m 82[0m[90m▕ [0m[35;1m                            [0m[39;1m$vartema [0m[35;1m= [0m[39;1mstr_replace[0m[35;1m(array([0m[37m']'[0m[35;1m, [0m[37m'['[0m[35;1m, [0m[37m'"' [0m[35;1m), [0m[37m''[0m[35;1m, [0m[39;1m$vartmptema[0m[35;1m);          [0m
+    [90m 83[0m[90m▕ [0m[35;1m                            [0m
+    [90m 84[0m[90m▕ [0m[35;1m                            if(!empty([0m[39;1m$g[0m[35;1m)){[0m
+    [90m 85[0m[90m▕ [0m[35;1m                                \[0m[39;1mMail[0m[35;1m::[0m[39;1mto[0m[35;1m([0m[39;1m$g[0m[35;1m)->[0m[39;1msend[0m[35;1m(new [0m[39;1mMailPortaltemplate[0m[35;1m([0m[39;1m$bodyMail[0m[35;1m,[0m[39;1m$sbj[0m[35;1m,[0m[39;1m$varvoucher[0m[35;1m,[0m[39;1m$vartema[0m[35;1m));[0m
+[31;1m  ➜ [0m[3;1m 86[0m[90m▕ [0m[35;1m                                if([0m[39;1mcount[0m[35;1m([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m()) > [0m[39;1m0 [0m[35;1m) {[0m
+    [90m 87[0m[90m▕ [0m[35;1m                                   foreach([0m[39;1mMail[0m[35;1m::[0m[39;1mfailures[0m[35;1m() as [0m[39;1m$email_address[0m[35;1m) {[0m
+    [90m 88[0m[90m▕ [0m[35;1m                                       [0m[39;1m$errorlog [0m[35;1m.= [0m[37m" - [0m[39;1m$email_address[0m[37m -"[0m[35;1m;[0m
+    [90m 89[0m[90m▕ [0m[35;1m                                    }[0m
+    [90m 90[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m129[39;22m
+  [37m    Illuminate\Support\Collection::each(Object(Closure))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: errorlog[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m92[39m
+    [90m 88[0m[90m▕ [0m[35;1m                                       [0m[39;1m$errorlog [0m[35;1m.= [0m[37m" - [0m[39;1m$email_address[0m[37m -"[0m[35;1m;[0m
+    [90m 89[0m[90m▕ [0m[35;1m                                    }[0m
+    [90m 90[0m[90m▕ [0m
+    [90m 91[0m[90m▕ [0m[35;1m                                } else {[0m
+[31;1m  ➜ [0m[3;1m 92[0m[90m▕ [0m[35;1m                                    [0m[39;1m$errorlog [0m[35;1m.= [0m[37m"No errors, all sent successfully!"[0m[35;1m;[0m
+    [90m 93[0m[90m▕ [0m[35;1m                                }  [0m
+    [90m 94[0m[90m▕ [0m[35;1m                            }              [0m
+    [90m 95[0m[90m▕ [0m[35;1m                        }[0m
+    [90m 96[0m[90m▕ [0m[35;1m                    }[0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m92[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: errorlog", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: errors[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m115[39m
+    [90m111[0m[90m▕ [0m[35;1m                        [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[37m"tes"[0m[35;1m;[0m
+    [90m112[0m[90m▕ [0m[35;1m                        [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m113[0m[90m▕ [0m
+    [90m114[0m[90m▕ [0m[35;1m                    } else {[0m
+[31;1m  ➜ [0m[3;1m115[0m[90m▕ [0m[35;1m                        [0m[39;1m$errors [0m[35;1m.= [0m[37m"No errors, all sent successfully!"[0m[35;1m;[0m
+    [90m116[0m[90m▕ [0m[35;1m                        [0m[39;1m$post2 [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+    [90m117[0m[90m▕ [0m[35;1m                        [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[37m"tes"[0m[35;1m;[0m
+    [90m118[0m[90m▕ [0m[35;1m                        [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m119[0m[90m▕ [0m[35;1m                    } [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m115[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: errors", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: errors[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m101[39m
+    [90m 97[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[37m"tes"[0m[35;1m;[0m
+    [90m 98[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m 99[0m[90m▕ [0m
+    [90m100[0m[90m▕ [0m[35;1m                        } else {[0m
+[31;1m  ➜ [0m[3;1m101[0m[90m▕ [0m[35;1m                            [0m[39;1m$errors [0m[35;1m.= [0m[37m"No errors, all sent successfully!"[0m[35;1m;[0m
+    [90m102[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2 [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+    [90m103[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[37m"tes"[0m[35;1m;[0m
+    [90m104[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m105[0m[90m▕ [0m[35;1m                        } [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m101[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: errors", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: errorlog[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m101[39m
+    [90m 97[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[39;1m$errorlog[0m[35;1m;[0m
+    [90m 98[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m 99[0m[90m▕ [0m
+    [90m100[0m[90m▕ [0m[35;1m                        } else {[0m
+[31;1m  ➜ [0m[3;1m101[0m[90m▕ [0m[35;1m                            [0m[39;1m$errorlog [0m[35;1m.= [0m[37m"No errors, all sent successfully!"[0m[35;1m;[0m
+    [90m102[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2 [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+    [90m103[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[39;1m$errorlog[0m[35;1m;[0m
+    [90m104[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m105[0m[90m▕ [0m[35;1m                        } [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m101[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: errorlog", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m ErrorException [49;22m
+
+[39;1m  Undefined variable: errorlog[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39m:[32m101[39m
+    [90m 97[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[39;1m$errorlog[0m[35;1m;[0m
+    [90m 98[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m 99[0m[90m▕ [0m
+    [90m100[0m[90m▕ [0m[35;1m                        } else {[0m
+[31;1m  ➜ [0m[3;1m101[0m[90m▕ [0m[35;1m                            [0m[39;1m$errorlog [0m[35;1m.= [0m[37m"No errors, all sent successfully!"[0m[35;1m;[0m
+    [90m102[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2 [0m[35;1m= [0m[39;1mPortal[0m[35;1m::[0m[39;1mfind[0m[35;1m([0m[39;1m$message[0m[35;1m->[0m[39;1midreminder[0m[35;1m);[0m
+    [90m103[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1merrorlog [0m[35;1m= [0m[39;1m$errorlog[0m[35;1m;[0m
+    [90m104[0m[90m▕ [0m[35;1m                            [0m[39;1m$post2[0m[35;1m->[0m[39;1mupdate[0m[35;1m();[0m
+    [90m105[0m[90m▕ [0m[35;1m                        } [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php[39;22m:[39;1m101[39;22m
+  [37m    Illuminate\Foundation\Bootstrap\HandleExceptions::handleError("Undefined variable: errorlog", "C:\laragon\www\prosertiproAblast\prosertiblast\app\Console\Commands\NotifyUsers.php")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php[39;22m:[39;1m244[39;22m
+  [37m    App\Console\Commands\NotifyUsers::App\Console\Commands\{closure}(Object(App\Models\Portal))[39m
+
+  [41;1m Swift_RfcComplianceException [49;22m
+
+[39;1m  Address in mailbox given [tes] does not comply with RFC 2822, 3.6.2.[39;22m
+
+  at [32mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39m:[32m355[39m
+    [90m351[0m[90m▕ [0m[90;3m     */[0m
+    [90m352[0m[90m▕ [0m[90;3m    [0m[35;1mprivate function [0m[39;1massertValidAddress[0m[35;1m([0m[39;1m$address[0m[35;1m)[0m
+    [90m353[0m[90m▕ [0m[35;1m    {[0m
+    [90m354[0m[90m▕ [0m[35;1m        if (![0m[39;1m$this[0m[35;1m->[0m[39;1memailValidator[0m[35;1m->[0m[39;1misValid[0m[35;1m([0m[39;1m$address[0m[35;1m, new [0m[39;1mRFCValidation[0m[35;1m())) {[0m
+[31;1m  ➜ [0m[3;1m355[0m[90m▕ [0m[35;1m            throw new [0m[39;1mSwift_RfcComplianceException[0m[35;1m([0m[37m'Address in mailbox given ['[0m[35;1m.[0m[39;1m$address[0m[35;1m.[0m[37m'] does not comply with RFC 2822, 3.6.2.'[0m[35;1m);[0m
+    [90m356[0m[90m▕ [0m[35;1m        }[0m
+    [90m357[0m[90m▕ [0m[35;1m    }[0m
+    [90m358[0m[90m▕ [0m[35;1m}[0m
+    [90m359[0m[90m▕ [0m
+
+  [33m1   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m272[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::assertValidAddress("tes")[39m
+
+  [33m2   [39m[39;1mC:\laragon\www\prosertiproAblast\prosertiblast\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php[39;22m:[39;1m117[39;22m
+  [37m    Swift_Mime_Headers_MailboxHeader::normalizeMailboxes([])[39m
